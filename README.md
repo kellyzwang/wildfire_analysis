@@ -39,7 +39,7 @@ In part 1, we conduct a base analysis to answer the common research question: Wh
 
  * The `wild_fire_data.ipynb` notebook contains code to collect and pre-process wildfire data. The collected wildfire data is saved as `fire_data_checkpoint.csv` in the data folder. This data file contains the fire year (`Fire_Year`), fire name (`Fire_Name`), fire size (`GIS_Acres`), fire type (`Fire_Type`), and distance to Chico (`Distance`), used to calculate the smoke estimates.
 
- * The `common_analysis.ipynb` notebook contains code to create fire smoke estimates in Chico, produce visualizations, and predicts smoke estimates for every year for the next 25 years (2025-2050).
+ * The `common_analysis.ipynb` notebook contains code to create fire smoke estimates in Chico, produce visualizations, and predict smoke estimates for every year for the next 25 years (2025-2050).
 
 
 
