@@ -41,6 +41,8 @@ In part 1, we conduct a base analysis to answer the common research question: Wh
 
  * The `common_analysis.ipynb` notebook contains code to create fire smoke estimates in Chico, produce visualizations, and predict smoke estimates for every year for the next 25 years (2025-2050).
 
+* `figure_descriptions_and_reflection.pdf` contains the visualizations, figure descriptions, and a reflection statement.
+
 
 
  ### License
