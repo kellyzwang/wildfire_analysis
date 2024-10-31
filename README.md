@@ -35,9 +35,9 @@ This repository contains all code and resources for analyzing wildfire impacts i
 
 In part 1, we conduct a base analysis to answer the common research question: What are the estimated wildfire smoke impacts on your assigned city each year for the most recent 60 years of wildfire data?
 
- * The `aqi_data.ipynb` notebook contains code to collect and pre-process daily AQI data from the API. The collected AQI data is saved as `gaseous_pollutants_data.csv` and `particulate_pollutants_data.csv` in the data folder. Later, the gaseous and particulate pollutants data are combined in the analysis step to calculate the average AQI, which is then aggregated to a yearly level.
+ * The `aqi_data.ipynb` notebook contains code to collect and pre-process the daily AQI data from the API. The collected AQI data is saved as `gaseous_pollutants_data.csv` and `particulate_pollutants_data.csv` in the data folder. Later, the gaseous and particulate pollutants data are combined in the analysis step to calculate the average AQI, which is then aggregated to a yearly level.
 
- * The `wild_fire_data.ipynb` notebook contains code to collect and pre-process wildfire data. The collected wildfire data is saved as `fire_data_checkpoint.csv` in the data folder. This data file contains the fire year (`Fire_Year`), fire name (`Fire_Name`), fire size (`GIS_Acres`), fire type (`Fire_Type`), and distance to Chico (`Distance`), used to calculate the smoke estimates.
+ * The `wild_fire_data.ipynb` notebook contains code to collect and pre-process the wildfire data. The collected wildfire data is saved as `fire_data_checkpoint.csv` in the data folder. This data file contains the fire year (`Fire_Year`), fire name (`Fire_Name`), fire size (`GIS_Acres`), fire type (`Fire_Type`), and distance to Chico (`Distance`), used to calculate the smoke estimates.
 
  * The `common_analysis.ipynb` notebook contains code to create fire smoke estimates in Chico, produce visualizations, and predict smoke estimates for every year for the next 25 years (2025-2050).
 
